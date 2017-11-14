@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.six.jdcom.wode.view.FragmentWode">
+    <RelativeLayout
+        android:id="@+id/my_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/b0x"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/my_title_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/b3h" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/my_title_img"
+            android:text="登陆/注册>"
+
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/xiannn" />
+
+        <ImageView
+            android:id="@+id/my_message_imagebtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/a9u" />
+
+        <ImageView
+            android:id="@+id/my_settings_imagebtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/my_message_imagebtn"
+            android:src="@drawable/a9x" />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycle_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:background="#F0F2F5"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycle_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

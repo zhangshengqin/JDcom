@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JDcom</string>
+    <string name="home">主页</string>
+    <string name="hot">热卖</string>
+    <string name="catagory">分类</string>
+    <string name="cart">购物车</string>
+    <string name="mine">我的</string>
+    <string name="login_bottomtv">登陆即代表您已同意<u>京东隐私政策</u></string>
+    <string name="phone_underline"><u>联系客服</u></string>
+
+    <string-array name="more_items">
+        <item>我的账户</item>
+        <item>我的订单</item>
+        <item>地址管理</item>
+        <item>收藏夹</item>
+        <item>最近浏览</item>
+        <item>帮助中心</item>
+        <item>关于</item>
+    </string-array>
+</resources>

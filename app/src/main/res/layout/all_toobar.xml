@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+
+        android:id="@+id/ll_nest_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_head"
+
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+
+                android:id="@+id/ll_head"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_sao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/iv_sao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/a_s" />
+
+                    <TextView
+                        android:id="@+id/tv_sao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="3dp"
+                        android:text="扫啊扫"
+                        android:textColor="@color/sao"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center_vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/search_icon2" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2dp"
+                        android:text="都市丽人领劵满399减200"
+                        android:textColor="@color/search_hint"
+                        />
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/root" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/ll_mm"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pack" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/iv_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/a9x" />
+
+                    <TextView
+                        android:id="@+id/tv_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="3dp"
+                        android:text="信息"
+                        android:textColor="@color/sao"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:id="@+id/iv_tuijian_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tv_tuijian_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="名称"
+        android:textColor="#000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_tuijian_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="¥55.80"
+            android:textColor="@color/tuijian_rcv_item_tvbg"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_like"
+            android:layout_width="45dp"
+
+            android:layout_height="25dp"
+            android:text="看相似"
+            android:textColor="@color/tuijian_btn_like_tv" />
+    </LinearLayout>
+</LinearLayout>
